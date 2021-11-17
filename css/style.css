@@ -1,0 +1,43 @@
+body{
+    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background-color: #b9c5e4;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.card{
+    box-sizing: border-box;
+    margin-top: 75px;
+    border-radius: 10px;
+    /* max-width: max-content; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cardimg {
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0 !important;
+    -webkit-border-radius: 10px 10px 0 0 !important;
+    -moz-border-radius: 10px 10px 0 0 !important;
+    -ms-border-radius: 10px 10px 0 0 !important;
+    -o-border-radius: 10px 10px 0 0 !important;
+}
+.procebtn{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    line-height: 2;
+}
+.cancel{
+    text-decoration: none;
+}
+
+@media screen and (width: 480px) {
+    .card{
+        min-width: 80% !important;
+    }
+}
